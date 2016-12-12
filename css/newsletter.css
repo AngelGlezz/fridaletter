@@ -132,3 +132,96 @@ button, #button {
 #confirm_image img {
 	width: 100%;
 }
+
+
+@media (max-width: 800px) {
+	#cover_content {
+	    width: 768px;
+	    height: auto;
+	}
+
+	#cover_img, #cover_text, .theme_text {
+		height: auto;
+	}
+}
+
+@media (max-width: 700px) {
+	#confirm_content, #confirm_image {
+		width: 100%;
+		height: auto;
+	}
+}
+
+@media (max-width: 640px) {
+	#cover_content {
+	    width: 600px;
+	    height: auto;
+	}
+
+	#cover_img, #cover_text, .theme_text {
+		width: 100%;
+	}
+
+}
+
+@media (max-width: 480px) {
+	#cover {
+		height: 600px;
+	}
+
+	#cover_content {
+	    width: 350px;
+	    height: auto;
+	}
+
+	.theme_item {
+		width: 29%;
+	}
+}
+
+@media (max-width: 380px) {
+	#cover {
+		height: 450px;
+	}
+
+	#cover_content {
+	    width: 300px;
+	    height: auto;
+	}
+
+	#content_theme {
+		height: 150px;
+	}
+
+	.theme_img {
+		width: 100%;
+	}
+
+	.theme_image {
+		width: 90px;
+		height: 90px;
+	}
+
+	.theme_item {
+	    width: 28%;
+	}
+
+	#form_content, form {
+		width: 300px;
+	}
+
+	.input {
+		width: 300px;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
